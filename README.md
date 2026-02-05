@@ -1,6 +1,26 @@
-# app
+# Cli template
 
 A CLI application built with Go.
+
+## Getting Started (Template)
+
+This repository is a template for creating Go CLI applications. Use GitHub's "Use this template" button or clone manually:
+
+```bash
+git clone https://github.com/thirdlf03/go-cli-template.git my-app
+cd my-app
+chmod +x setup.sh
+./setup.sh
+```
+
+`setup.sh` will interactively configure your project:
+
+1. Replace module path and binary name
+2. Update command metadata and description
+3. Reset CHANGELOG.md
+4. Run `go mod tidy`
+5. Re-initialize git history
+6. Self-delete after completion
 
 ## Installation
 
@@ -92,4 +112,4 @@ make help     # Show all commands
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT LICENSE [LICENSE](LICENSE) 
